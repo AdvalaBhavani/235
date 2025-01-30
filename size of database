@@ -1,0 +1,8 @@
+import sys
+
+a=10
+str = "hello"
+list = [10, 'b']
+print("size of database", sys.getsizeof(a), "bytes.")
+print("size of database", sys.getsizeof(str), "bytes.")
+print("size of list", sys.getsizeof(list), "bytes.")

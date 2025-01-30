@@ -1,0 +1,9 @@
+n=int(input())
+p=list(map(int,input().split()))
+ip=int(input())
+tp=0
+for i in range(ip):
+  ind,qty,dis=list(map(int,input().split()))
+  disp=p[ind]*(1-dis/100)*qty
+  tp=tp+disp
+print(int(tp))

@@ -1,0 +1,27 @@
+Lambda Function
+
+A lambda function is a small anonymous function defined
+with the lambda keyword.
+Here's an example of a lambda function that adds two numbers:
+'''
+
+add = lambda x, y: x + y
+
+result = add(5, 3)
+print(result)  
+numbers = [1, 2, 3, 4, 5]
+
+
+squared_numbers = map(lambda x: x ** 2, numbers)
+
+print(list(squared_numbers):
+
+numbers = [1,2,3,4]
+
+def square(number):
+  return number * number
+
+squared_numbers = map(square, numbers)
+result = list(squared_numbers)
+print(result) 
+

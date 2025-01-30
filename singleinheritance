@@ -1,0 +1,16 @@
+class A:
+    def method(self):
+        print("Method in class A")
+
+class B(A):
+    def method(self):
+        print("Method in class B")
+        super().method()
+
+class C(B):
+    def method(self):
+        print("Method in class C")
+        super().method()
+
+obj = C()
+obj.method()
